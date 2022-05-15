@@ -56,7 +56,7 @@ public class ScoreService {
 		movie.setCount(movie.getScores().size());
 		
 		movie = movieRepository.save(movie);
-		return new MovieDTO (movie);
+		return new MovieDTO(movie);
 	
 	}
 	
